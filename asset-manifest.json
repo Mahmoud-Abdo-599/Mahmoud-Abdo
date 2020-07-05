@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mahmoud-Abdo/static/css/main.724dbdd3.chunk.css",
+    "main.css": "/Mahmoud-Abdo/static/css/main.6674d23c.chunk.css",
     "main.js": "/Mahmoud-Abdo/static/js/main.e1fabbd3.chunk.js",
     "main.js.map": "/Mahmoud-Abdo/static/js/main.e1fabbd3.chunk.js.map",
     "runtime-main.js": "/Mahmoud-Abdo/static/js/runtime-main.f6fca8be.js",
@@ -8,9 +8,9 @@
     "static/js/2.fdc97f30.chunk.js": "/Mahmoud-Abdo/static/js/2.fdc97f30.chunk.js",
     "static/js/2.fdc97f30.chunk.js.map": "/Mahmoud-Abdo/static/js/2.fdc97f30.chunk.js.map",
     "index.html": "/Mahmoud-Abdo/index.html",
-    "precache-manifest.2efda13f5c2cb3f5e968c67881517d5e.js": "/Mahmoud-Abdo/precache-manifest.2efda13f5c2cb3f5e968c67881517d5e.js",
+    "precache-manifest.edeaf6d248b0ee707b63771fe21bb101.js": "/Mahmoud-Abdo/precache-manifest.edeaf6d248b0ee707b63771fe21bb101.js",
     "service-worker.js": "/Mahmoud-Abdo/service-worker.js",
-    "static/css/main.724dbdd3.chunk.css.map": "/Mahmoud-Abdo/static/css/main.724dbdd3.chunk.css.map",
+    "static/css/main.6674d23c.chunk.css.map": "/Mahmoud-Abdo/static/css/main.6674d23c.chunk.css.map",
     "static/js/2.fdc97f30.chunk.js.LICENSE.txt": "/Mahmoud-Abdo/static/js/2.fdc97f30.chunk.js.LICENSE.txt",
     "static/media/Resume-Mahmoud-Abdo-Front-End-Developer.pdf": "/Mahmoud-Abdo/static/media/Resume-Mahmoud-Abdo-Front-End-Developer.a5531197.pdf",
     "static/media/main.scss": "/Mahmoud-Abdo/static/media/weather.4e9d14a7.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6fca8be.js",
     "static/js/2.fdc97f30.chunk.js",
-    "static/css/main.724dbdd3.chunk.css",
+    "static/css/main.6674d23c.chunk.css",
     "static/js/main.e1fabbd3.chunk.js"
   ]
 }
