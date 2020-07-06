@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31a82e8706f6d0852c2483bcedddf090",
+    "revision": "f6f9a0ef082cc54a12f526d8ab9d8e6e",
     "url": "/Mahmoud-Abdo/index.html"
   },
   {
-    "revision": "97a74d501895899f6a9a",
-    "url": "/Mahmoud-Abdo/static/css/main.99f851a2.chunk.css"
+    "revision": "98b4e13f87feff3c6bdd",
+    "url": "/Mahmoud-Abdo/static/css/main.f24242b4.chunk.css"
   },
   {
     "revision": "42b3285a4c7064e9b05d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mahmoud-Abdo/static/js/2.06e2a2ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97a74d501895899f6a9a",
+    "revision": "98b4e13f87feff3c6bdd",
     "url": "/Mahmoud-Abdo/static/js/main.d5e9c091.chunk.js"
   },
   {
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mahmoud-Abdo/static/media/lyric.89fdcc75.jpg"
   },
   {
-    "revision": "c5d4493bdfffa172daf05a54fba77452",
-    "url": "/Mahmoud-Abdo/static/media/natures.c5d4493b.jpg"
+    "revision": "75b24feab785f975d0296b0314e26df1",
+    "url": "/Mahmoud-Abdo/static/media/natures.75b24fea.jpg"
   },
   {
     "revision": "f5a4874268e70b7ce7e3f803f7de5777",
