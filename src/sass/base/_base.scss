@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // this define what 1rem is
+     font-size: 62.5%;  /*this equal to if we said 10px the reason we make it in % to allow the user
+      to zoom over the text if he want and not overwrhight the default font size set by the browser
+       that is 16 px for the font -- and we make it 10px at the first place to make it easy to devide 
+       or double 10px in the <rem> value in all our component all over the css code*/
+
+       @include respond(tab-land) { //width < 1200?
+            font-size: 56.25%; // 1rem = 9px; 9px/16px=56.25%
+        }
+    
+        @include respond(tab-port) { //width < 900?
+            font-size: 50%; // 1rem = 8px; 8px/16px=50%
+        }
+
+        @include respond(phone) { //width < 600?
+            font-size: 40%; 
+        }
+    
+
+        
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(44, 44, 44);
+}
+
+::selection {
+    background-color: $color-secondary-dark;
+    color: $color-primary-light;
+}

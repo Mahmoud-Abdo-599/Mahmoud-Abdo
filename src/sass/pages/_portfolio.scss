@@ -1,0 +1,55 @@
+.section-portofolio {
+    height: 100%;
+    padding-bottom: 16rem;
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+    background-color: $color-primary-light;
+
+    &__container {
+        width: 60%;
+        margin: 0rem auto 7rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 7rem;
+
+        @include respond(tab-land) { //width < 1200?
+            width: 80%;
+        }
+
+        @include respond(tab-port) { //width < 1200?
+            grid-template-columns: repeat(1, 1fr);
+            width: 50%;
+        }
+
+        @include respond(phone) { //width < 1200?
+            width: 75%;
+        }
+    }
+
+    &__heading-box {
+        color: $color-secondary-dark;
+        padding-top: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    &__heading {
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: .1rem;
+    }
+
+    &__button-box-2 {
+        text-align: center;
+        padding-top: 10rem;
+        border-top: solid #2020204d;
+
+        &__button {
+            display: inline-block;
+            padding: 0 1rem 0 1rem;
+            font-size: 7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+}

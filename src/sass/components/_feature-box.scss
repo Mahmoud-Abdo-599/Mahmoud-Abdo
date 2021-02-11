@@ -1,0 +1,145 @@
+.feature-box {
+    background-color: rgba($color-secondary, 1);
+    height: 25rem;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s , -webkit-transform .3s;
+    overflow: hidden;
+    width: 100%;
+
+    @include respond(tab-land) { //width < 1200?
+        height: 100%;
+        display: block;
+    }
+
+    @include respond(tab-port) { //width < 900?
+        height: 100%;
+        display: block;
+    }
+
+    @include respond(phone) { //width < 600?
+        height: 100%;
+        display: block;
+    }
+    
+    &__icon {
+        width: 20%;
+        font-size: 10rem;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        height: 100%;
+        display: table-cell;
+        color: $color-primary-light;
+
+        @include respond(tab-land) { //width < 1200?
+            width: auto;
+            display: block;
+            padding-top: 0;
+        }
+    
+        @include respond(tab-port) { //width < 900?
+            width: auto;
+            display: block;
+            padding-top: 0;
+        }
+
+        @include respond(phone) { //width < 600?
+            width: auto;
+            display: block;
+            padding-top: 0;
+        }
+    }
+
+    &__text-box {
+        width: 80%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+        @include respond(tab-land) { //width < 1200?
+            width: auto;
+            display: block;
+            align-items: center;
+        }
+    
+        @include respond(tab-port) { //width < 900?
+            width: auto;
+            display: block;
+            align-items: center;
+        }
+
+        @include respond(phone) { //width < 600?
+            width: auto;
+            display: block;
+            align-items: center;
+        }
+        
+        &__heading {
+            text-align: left;
+            padding-bottom: .5rem;
+            font-size: 3rem;
+            letter-spacing: .3rem;
+            text-transform: uppercase;
+            font-weight: 400;
+
+            @include respond(tab-land) { //width < 1200?
+                text-align: center;
+            }
+        
+            @include respond(tab-port) { //width < 900?
+                text-align: center;
+            }
+    
+            @include respond(phone) { //width < 600?
+                text-align: center;
+            }
+        }
+
+        &__secondary {
+            text-align: left;
+            font-size: 2.1rem;
+            font-weight: 300;
+            
+            @include respond(tab-land) { //width < 1200?
+                text-align: center;
+            }
+        
+            @include respond(tab-port) { //width < 900?
+                text-align: center;
+            }
+    
+            @include respond(phone) { //width < 600?
+                text-align: center;
+            }
+        }
+    }
+
+    &:hover {
+        transform: translatex(0rem) scale(.98); //scale(1.03) but making shaking prob
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .08);
+
+        background-color: $color-primary-dark;
+        color: $color-secondary-dark;
+
+        @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+            background-color: $color-secondary;
+            color: $color-primary-light;
+        }
+    }
+
+    &:hover &__icon {
+        color: $color-secondary;
+
+        @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+            color: $color-primary-light;
+        }
+    }
+}

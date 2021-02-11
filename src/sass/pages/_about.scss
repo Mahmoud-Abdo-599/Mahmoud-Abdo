@@ -1,0 +1,184 @@
+.about {
+    height: 100vh;
+    z-index: 1;
+    background-color: $color-primary-light;
+    position: relative;
+
+    &__left-side {
+        width: 17.5%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+
+        @include respond(tab-land) {
+            width: 25%;
+        }
+
+        @include respond(phone) {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            overflow-y: auto;
+            width: 22.5%;
+            overflow: hidden;
+        }
+
+        
+        &__background-image {
+            background-image: linear-gradient(
+            to left, 
+            rgba($color-secondary-light, 0), 
+            rgba($color-secondary-dark, 0) ) , 
+            url(../../img/about-2.jpg);
+            background-size: cover;
+            overflow: hidden;
+
+            animation: moveInAboutImg .55s ease-out;
+
+            @include respond(tab-port) {
+                background-position: cover;
+            }
+
+            @include respond(phone) {
+                background-position: center;
+                animation: moveInAboutImgPhone .55s ease-out;background-image: linear-gradient(
+                    to left, 
+                    rgba($color-secondary-light, 0), 
+                    rgba($color-secondary-dark, 0) ) , 
+                    url(../../img/about-3.jpg);
+                    background-size: cover;
+            }
+        }
+        
+    }
+
+
+    &__right-side {
+        width: 82.5%;
+        background-color: $color-primary-light;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        overflow-y: auto;
+
+        @include respond(tab-land) {
+            width: 75%;
+        }
+
+        @include respond(phone) {
+            width: 77.5%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        &__title {
+            font-size: 10rem;
+            font-weight: 900;
+            background-color: $color-secondary;
+            color: $color-primary-light;
+            text-transform: uppercase;
+            padding: 1rem 6rem 1rem 6rem;
+            letter-spacing: 1rem;
+
+            @include respond(phone) {
+                font-size: 9rem;
+                letter-spacing: .5rem;
+                line-height: 9rem;
+                padding: 3rem 1rem 3rem 3rem;
+                margin-bottom: 3rem;
+            }
+
+        }
+
+        &__box-1 {
+            background-color: $color-primary-light;
+            padding-bottom: 1.5rem;
+            border-bottom: solid #1616162a;
+        }
+
+        &__heading-1 {
+            font-size: 5rem;
+            font-weight: 400;
+            color: $color-secondary;
+            margin: 1.2rem 6rem 0rem 6rem;
+            letter-spacing: .3rem;
+
+            @include respond(phone) {
+                margin: 1.2rem 2rem .5rem 4rem;
+                line-height: 6rem;
+            }
+        }
+        
+        &__p-1 {
+            font-size: 2rem;
+            font-weight: 400;
+            color: $color-secondary;
+            margin: 0rem 6rem -1.1rem 6rem;
+            padding-bottom: 2.2rem;
+
+            @include respond(phone) {
+                margin: 0rem 2rem -1.1rem 4rem;
+            }
+        }
+
+        &__phone {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-secondary;
+            margin: 0rem 6rem 0rem 6rem;
+            padding-bottom: 0rem;
+
+            @include respond(phone) {
+                font-size: 2.5rem;
+                letter-spacing: .1rem;
+            }
+        }
+
+        &__mail {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $color-secondary;
+            margin: .5rem 6rem .5rem 6rem;
+            padding-bottom: 2.2rem;
+
+            @include respond(phone) {
+                font-size: 2.5rem;
+                font-weight: 900;
+                margin: .5rem 6rem .25rem 6rem;
+                letter-spacing: .1rem;
+            }
+        }
+
+        &__contact {
+
+        }
+
+        &__social-box {
+            margin: -.5rem 6rem -.6rem 6rem;
+            &:hover {
+                transform: scale(1);;
+            }
+            @include respond(phone) {
+                margin: 0rem 6rem -.6rem 6rem;
+            }
+        }
+
+        &__resume {
+            margin: 0rem 6rem 0rem 6rem;
+            padding-bottom: 4rem;
+            border-bottom: solid #161616b0;
+        }
+
+        &__button {
+            margin: 7rem 6rem 7rem 12rem;
+
+            @include respond(phone) {
+                margin: 7rem 1rem 8rem 3rem;
+                text-align: center;
+            }
+        }
+    }
+}

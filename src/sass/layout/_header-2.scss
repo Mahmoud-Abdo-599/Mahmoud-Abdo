@@ -1,0 +1,44 @@
+.header-2 {
+    height: 50vh;
+    z-index: 3;
+    
+    background-color: $color-secondary-dark;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(100% 100%, 50% 92%, 0 100%, 0 0, 100% 0); //to work with other browsers 
+    clip-path: polygon(100% 100%, 50% 92%, 0 100%, 0 0, 100% 0);
+
+    &__logo-box{
+        position: absolute;
+        top: 14%;
+        left: 7%;
+
+        @include respond(phone) {
+            top: 29%;                          // .
+            left: 50%;                         // ..
+            transform: translate(-50%, -50%);  // ... this way to center the element
+            text-align: center;
+        }
+    }
+
+    &__logo{
+        height: 3.5rem;
+    }
+    
+    &__text-box{   // this is equal to .header__text-box cuz "&" nest the .header
+        position: absolute;
+        top: 50%;                          // .
+        left: 50%;                         // ..
+        transform: translate(-50%, -50%);  // ... this way to center the element
+        text-align: center;
+
+        @include respond(phone) {
+            top: 55%;                          // .
+            left: 50%;                         // ..
+            transform: translate(-50%, -50%);  // ... this way to center the element
+            text-align: center;
+        }
+    }
+
+}

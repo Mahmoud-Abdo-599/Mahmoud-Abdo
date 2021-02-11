@@ -1,0 +1,87 @@
+@keyframes moveInDown {
+    0% {
+        opacity: 0;
+        transform: translatey(-10rem);
+    }
+
+    80% {
+        transform: translatey(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInUp {
+    0% {
+        opacity: 0;
+        transform: translatey(10rem);
+    }
+
+    80% {
+        transform: translatey(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInAboutHeader {
+    0% {
+        opacity: 0;
+        transform: translatey(-10rem);
+    }
+
+    80% {
+        transform: translatey(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInAboutImg {
+    0% {
+        opacity: 0;
+        transform: translatex(-10rem);
+    }
+
+    
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInAboutImgPhone {
+    0% {
+        opacity: 0;
+        transform: translatex(10rem);
+    }
+
+    
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translatey(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
