@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4309d488fba8de0221a4b148fa37d705",
+    "revision": "769c96e2d7bb733067a5645a2b6b847d",
     "url": "/Mahmoud-Abdo/index.html"
   },
   {
-    "revision": "3e178b7e0b378487990e",
+    "revision": "2b7f8a78f3d80dea6564",
     "url": "/Mahmoud-Abdo/static/css/main.476d4473.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mahmoud-Abdo/static/js/2.06e2a2ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e178b7e0b378487990e",
-    "url": "/Mahmoud-Abdo/static/js/main.d1715c1a.chunk.js"
+    "revision": "2b7f8a78f3d80dea6564",
+    "url": "/Mahmoud-Abdo/static/js/main.b64a42a4.chunk.js"
   },
   {
     "revision": "6f70dc67c35cdd2ede32",
     "url": "/Mahmoud-Abdo/static/js/runtime-main.02a29aac.js"
   },
   {
-    "revision": "1a38e84ff9e6cb0e830b10b66b98a6a2",
-    "url": "/Mahmoud-Abdo/static/media/Resume-Mahmoud-Abdo-Front-End-Developer.1a38e84f.pdf"
+    "revision": "dc90a758f0e19ef598c1e3f4dcb85d1a",
+    "url": "/Mahmoud-Abdo/static/media/Resume-Mahmoud-Abdo-Frontend-Developer.dc90a758.pdf"
   },
   {
     "revision": "20cefe21079c3127a29ea9dd05da9e8d",
